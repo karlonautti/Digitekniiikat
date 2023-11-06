@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Playpen+Sans:wght@300&display=swap');
+
+h1 {color:darkorange !IMPORTANT; /* ohittaa muut määritykset */ 
+    background-color:darkcyan; /* otsikon taustaväri */
+    font-family: 'Kenia', sans-serif; /*google fontti */
+    width: 97%;
+    text-align: center;
+}
+
+body {background-color:bisque; /* sivun taustaväri */
+    color:lightseagreen;
+    font-family: 'Playpen Sans', cursive; /* google fontti */
+    font-size:larger;
+}
+
+nav {background-color: goldenrod;
+    padding: 10px; /*tyhjää tilaa reunan ja sisällön väliin*/
+    width: 95%;
+    text-align:center; /*keskitys*/
+}
+
+nav a {color: rgb(104, 32, 67); /*linkin väri*/
+    background-color: cornflowerblue;
+    text-decoration: dotted; /*alleviivaus pois*/
+    margin: 20px; /*irti toisistaan*/
+    padding: 10px; /*tyhjää tilaa reunan ja sisällön väliin*/
+    display: inline-block;
+    width: 8em; /*leveys*/
+    border: 3px rgb(104, 32, 67) solid; /*reunus*/
+    border-radius: 5px; /*reunan pyöristys*/
+    box-shadow: 5px 5px 5px darkslategray; /*heittovarjo*/
+}
+
+.malmintori {
+    text-align:center;
+}
+
+footer {border-top: dotted darkmagenta 3px;
+    clear:both;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid purple;
+    border-collapse: collapse;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {text-align:center;
+    color: black; 
+    padding: 10px;
+}
+
+tr:nth-child(even){background-color:darkgoldenrod}
+tr:nth-child(odd){background-color: rgb(235, 206, 15);}
